@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "disable_notification",
+  "version": "${version}",
+  "name": "Disable Notification",
+  "description": "A client-side fabric mod that disables the notification system added in 22w06a",
+  "authors": [
+    "FX - PR0CESS"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ca.fxco.disableNotification.disableNotification"
+    ]
+  },
+  "mixins": [
+    "disable_notification.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.1",
+    "minecraft": "1.18.x"
+  }
+}
